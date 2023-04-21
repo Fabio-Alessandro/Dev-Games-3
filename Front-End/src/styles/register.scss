@@ -1,0 +1,130 @@
+@import "./mixins";
+@import "./maps";
+@import "./variables";
+
+.registerConteiner {
+  background-image: url(../assets/login2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  padding-top: 17vh; 
+  height: 100vh;
+  @media screen and (max-width: $medium-small-screen) {
+    height: 150vh;
+  }
+  @media screen and (max-width: $smallest-screen) {
+    height: 150vh;
+  }
+
+}
+.registerForm {  
+  width: 25%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.13);
+  border-radius: 10px;
+  padding: 50px 35px;
+  border-radius: 10px;
+  @include flex(column, space-evenly, center);
+  backdrop-filter: blur(10px);
+
+  @media screen and (max-width: $big-medium-screen) {
+    width: 40%;
+  }
+  @media screen and (max-width: $medium-small-screen) {
+    width: 50%;
+  }
+  @media screen and (max-width: $small-screen) {
+    width: 70%;
+  }
+  @media screen and (max-width: $smallest-screen) {
+    width: 90%;
+    padding: 1rem;
+  }
+}
+
+* {
+  font-family: Helvetica, sans-serif;  
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+
+.registerTitle {
+  font-size: map-get($font-size, "x-large");
+  color: $primary-color;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+  margin: 1rem;
+  @media screen and (max-width: $medium-small-screen) {
+    font-size: map-get($font-size, "large");
+  }
+  @media screen and (max-width: $smallest-screen) {
+    font-size: map-get($font-size, "medium");
+  }
+}
+
+.registerInput {
+  color: $primary-color;
+  height: 50px;
+  width: 95%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin: 8px 0;
+  font-size: map-get($font-size, "medium");
+  font-weight: 300;
+
+  &::placeholder {
+    color: #e5e5e5;
+  }
+  @media screen and (max-width: $medium-small-screen) {
+    font-size: map-get($font-size, "small");
+  }
+  
+}
+
+.registerButton {
+  margin: 50px 0 50px 0;
+  width: 100%;
+  background-color: $logo-color;
+  color: #080710;
+  padding: 15px 0;
+  font-size: map-get($font-size, "medium");
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $logo-color-hover;
+  }
+  @media screen and (max-width: $medium-small-screen) {
+    font-size: map-get($font-size, "small");
+  }
+
+}
+
+.registerAlreadyAccount {
+  @include flex(row, space-evenly, center);
+
+  p {
+    margin-right: 1rem;
+    font-size: map-get($font-size, "small");
+    color: $primary-color;    
+  }
+  @media screen and (max-width: $big-medium-screen) {
+    @include flex(column, space-evenly, center);
+    text-align: center;
+  }
+  
+
+}
+
+.registerLink {
+  font-size: map-get($font-size, "small");
+  font-weight: bold;
+  color: $primary-color;
+  &:hover{
+    color: $logo-color
+  }
+}
