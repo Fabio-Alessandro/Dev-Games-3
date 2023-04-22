@@ -47,6 +47,8 @@ echo "${BLUE}Installing Front-End dependencies${NC}"
 
 npm i
 
+echo "${GREEN}Done!${NC}"
+
 cd ../Back-End
 
 echo "${BLUE}Starting Back-End server...${NC}"
@@ -71,5 +73,3 @@ cd ../Front-End
 echo "${BLUE}Starting Front-End server...${NC}"
 
 npm start
-
-echo "${GREEN}The project is ready!${NC}"

@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server-setup": "sh server-setup.sh",
-    "client-setup": "sh client-setup.sh",
-    "server": "sh server-start.sh",
-    "client": "sh client-start.sh"
+    "start": "sh project-run.sh",
+    "initialize": "sh project-setup-run.sh"
   },
   "repository": {
     "type": "git",
