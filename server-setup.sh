@@ -41,4 +41,35 @@ npm i
 
 echo "${GREEN}Done!${NC}"
 
+cd ../Front-End
+
+echo "${BLUE}Installing Front-End dependencies${NC}"
+
+npm i
+
+cd ../Back-End
+
+echo "${BLUE}Starting Back-End server...${NC}"
+
+npm start &
+
+while ! nc -z localhost 3001; do
+  sleep 1
+done
+
+echo "${GREEN}Back-End server started!${NC}"
+
+echo "${BLUE}Seeding database...${NC}"
+
+npm run seed
+npm run relations
+
+echo "${GREEN}Done!${NC}"
+
+cd ../Front-End
+
+echo "${BLUE}Starting Front-End server...${NC}"
+
 npm start
+
+echo "${GREEN}The project is ready!${NC}"
