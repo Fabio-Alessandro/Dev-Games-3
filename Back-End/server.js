@@ -41,7 +41,7 @@ server.use((err, req, res, next) => {
   res.status(500).send(err.message);
 });
 
-db.sync({ force: false }).then(() => {
+db.sync().then(() => {
   console.log("Data Base Connect");
 
   server.listen(PORT, () => {
