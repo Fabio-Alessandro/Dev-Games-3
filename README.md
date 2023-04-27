@@ -176,7 +176,7 @@ Project Link: [https://github.com/Fabio-Alessandro/Dev-Games-3](https://github.c
 [stars-url]: https://github.com/Fabio-Alessandro/Dev-Games-3/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Fabio-Alessandro/Dev-Games-3.svg?style=for-the-badge
 [issues-url]: https://github.com/Fabio-Alessandro/Dev-Games-3/issues
-[license-shield]: https://img.shields.io/github/license/Fabio-Alessandro/Dev-Games-3.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/Fabio-Alessandro/Dev-Games-3/blob/main/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/fabio-alessandro-022a4a261/
