@@ -1,0 +1,20 @@
+{
+  "name": "dev-games-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sh project-run.sh",
+    "initialize": "sh project-setup-run.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fabio-Alessandro/Dev-Games-3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fabio-Alessandro/Dev-Games-3/issues"
+  },
+  "homepage": "https://github.com/Fabio-Alessandro/Dev-Games-3#readme"
+}

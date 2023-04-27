@@ -19,14 +19,14 @@ router.get("/", getAllGames);
 router.get("/pagination", getGamesPagination);
 
 // find games by category
-router.get("/category/:category", validateToken, findGamesByCategory);
+router.get("/category/:category", findGamesByCategory);
 
 // search a  game by name
-router.get("/search", validateToken, searchGameByName);
+router.get("/search", searchGameByName);
 
 // search by tag
 
-router.get("/tags/:tag", validateToken, searchGameByTag);
+router.get("/tags/:tag", searchGameByTag);
 
 // get a game by ID
 router.get("/:id", getAGameById);
