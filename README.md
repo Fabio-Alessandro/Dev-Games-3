@@ -16,7 +16,6 @@
   <p align="center">
     The most acclaimed videogames at your fingertips
     <br></br>
-    <a href="https://www.youtube.com/">View Demo</a> · 
     <a href="https://github.com/Fabio-Alessandro/Dev-Games-3/issues">Report Bug</a> · 
     <a href="https://github.com/Fabio-Alessandro/Dev-Games-3/issues">Request Feature</a>
   </p>
@@ -41,7 +40,6 @@
         <li><a href="#startup">Startup</a></li>
       </ul>
     </li>
-    <li><a href="#gallery">Gallery</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -118,16 +116,6 @@ Run the full project (Leave the process open after it finishes):
 ```sh
 npm start
 ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GALLERY -->
-
-## Gallery
-
-See the app in action: 
-
-[![YouTube][YouTube]][Youtube-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
